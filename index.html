@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<title>Travel Planer</title>
+ <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+   <link rel="stylesheet" type="text/css" href="pr2.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+ <head>
+
+ 	<style>
+ 		.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: #006666; 
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    border: 5px solid white;
+   
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #006666;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #006666;
+}
+.contactMe {
+    border-radius: 5px;
+    background-color: #ccccb3;
+    padding: 2px;
+    text-align: bottom;
+    
+}
+.card-text{
+    border-radius: 45px;
+    background-color:  #b3e6cc;
+    padding: 12px; 
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 5px solid white; 
+}
+
+.container-fluid {
+    font-size: 25px;
+
+}
+
+p.copyright {
+    margin-left: 25px;
+    color: white;
+}
+
+a.link {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+div#footer {
+    background-color: rgb(58, 58, 58);
+}
+ 	</style>
+
+ 	
+ 
+
+      <div class="container-fluid topBar">
+            <a class="appNav col-xs-2"><span class="fa fa-navicon"></span></a>
+            <a class="topTitle col-xs-8">Travel Guide</a>
+            <a class="moreOpt col-xs-2"><span class="fa fa-search"></span></a>
+        </div>
+
+ 	
+
+             </div>
+        <div class="login-container">
+            <form action="action">
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</head>
+
+ 	
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	
+
+    <div id="home" class="image">
+    	<br>
+        <div class="center-text"> Please, make some awesome plans about your trip! :) </div>
+        <br>
+    </div>
+    <br>
+
+    <div class="sideBarWrap container-fluid col-xs-12">
+         
+            <div class="card sideBar">
+                
+                <div class="card-title SideBarTitle">
+                    <a class="closeSideBar"><span class="fa fa-arrow-left"></span></a>
+                </div>
+                <div class="card-body">
+                    <!--Text-->
+                    <div class="card-text">
+                        <div class="sideTitle">Travel Guide</div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="sideBtn sideFeatBtn">
+                                    <span class="fa fa-history fa-fw sideIcon"></span><br>
+                                    <a>Recent</a>
+                                </div>
+                                <div class="sideBtn sideFavBtn">
+                                    <span class="fa fa-heart fa-fw sideIcon"></span><br>
+                                    <a>Favourite</a>
+                                </div>
+                            </div>
+                        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="app container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                    <div class="card contentCard accomodationCard">
+                        <div class="card-body">
+                            <h3 class="card-title"><span class="fa fa-bed"></span> Accomodation</h3>
+                            <div class="card-text">
+                                <img class="loadImg" src="https://conference.evpa.eu.com/wp-content/uploads/2018/07/Acommodation.jpg" width='20%'>
+                                <p class="showMore col-12">Please, book your accomodation on time. Find yourself best option and enjoy your holidays. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                    <div class="card contentCard WeatherCard">
+                        <div class="card-body">
+                            <h3 class="card-title"><span class="fa fa-sun-o"></span> Weather</h3>
+                            <div class="card-text">
+                                <img class="loadImg" src="https://s3.envato.com/files/179756678/snapshot/Screen%20Shot%202016-03-28%20at%204.49.09%20pm.png" width='20%'>
+                                <p class="showMore col-12">Check the weather and stay safe. This option helps people prepare for how to dress (i.e. warm weather, cold weather, windy weather, rainy weather)
+Helps businesses and people plan for power production and how much power to use (i.e. power companies, where to set thermostat). Helps people prepare if they need to take extra gear to prepare for the weather (i.e. umbrella, rain coat, sun screen). Helps people plan outdoor activities (i.e. to see if rain/storms/cold weather will impact outdoor event).
+ Helps curious people to know what sort of weather can be expected (i.e. a snow on the way, severe storms) :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                    <div class="card contentCard foodCard">
+                        <div class="card-body">
+                            <h3 class="card-title"><span class="fa fa-cutlery"></span> Places to Eat</h3>
+                            <div class="card-text">
+                                <img class="loadImg" src="https://cdna.artstation.com/p/assets/images/images/020/124/688/large/yantram-architectural-design-studio-magnificent-modern-restaurant-3d-interior-designers-by-architectural-rendering-company.jpg?1566468035" width='20%'>
+                                <p class="showMore col-12">If you are a person who enjoy eating, check this out! The cosmopolitan city continues to expand its roster of world-class restaurants serving everything from original variations on classic hummus to lip-smacking contemporary dim sum, which often explore innovation without forsaking fresh, honest flavours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                    <div class="card contentCard landmarksCard">
+                        <div class="card-body">
+                            <h3 class="card-title"><span class="fa fa-camera"></span> Landmarks</h3>
+                            <div class="card-text">
+                                <img class="loadImg" src="https://c8.alamy.com/comp/REW4Y2/world-landmarks-icon-REW4Y2.jpg" width='20%'>
+                                <p class="showMore col-12">There’s no way you should miss scheduling time to see some of the most famous landmarks in the world. Believe it. They’re not famous for nothing.
+
+While their names will no doubt be familiar, it won’t be until you’re actually standing in front of one of them that you’ll be able to truly appreciate their jaw-dropping splendor. The awe-inspiring, monumental grandeur of these world-famous landmarks just has to be seen to be believed.
+
+So get your pen out and start adding them to your travel bucket list.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="map"></div>
+        </div>
+
+    <div class="img" id="bio">
+        <div class="bio">
+            <h1 style="margin: 0; position: relative; top: -75px; left: -20px"> </h1>
+            <p> Welcome to the travel planer. Here you can find everything about your perfect future trip. Enjoy!
+            </p>
+        </div>
+		
+		     </p>
+       
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+	<div id="contactMe" style="position:static;">
+        <h1 style="margin-bottom: 10px">Contact Me</h1>
+        <div class="contactMe">
+            <form action="someAction">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="firstname" placeholder="Example: Adna">
+
+                <label for="surname">Last Name</label>
+                <input type="text" id="surname" name="lastname" placeholder="Example: Cazinkić">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Please, write your message here..." style="height: 150px"></textarea>
+
+                <input type="submit" value="Submit"> 
+            </form>
+        </div>
+
+  <!--Div for footer-->
+    <div class="row">
+        <div id="footer" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <br>
+            <p class="copyright">&copy; 2020 Travel Guide. All Rights Reserved</p>
+        </div>
+    </div>
+
+<script type="text/javascript" src="http://www.geoplugin.net/javascript.gp"></script>
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- navbar functionality -->
+        <script type="text/javascript" src="js/navbar.js"></script>
+	
+</body>
+ </head>
